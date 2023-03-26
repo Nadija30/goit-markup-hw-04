@@ -307,8 +307,30 @@ background-color: #4D5AE5;
 .social-list-icon {
 fill: #f4f4fd;
 }
-/* ========== /Our-team =========*/
 
+/* ========== /Our-team =========*/
+/* ========== Our-Customers=========*/
+.customers-title {
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+text-transform: capitalize;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--title-color-navy-blue);
+margin-bottom: 72px;
+}
+.customers-list{
+display: flex;
+justify-content: center;
+gap: 24px;
+}
+.customers-list-item {
+border: 1px solid #8E8F99;
+border-radius: 4px;
+padding:16px 32px;
+}
+/* ========== /Our-Customers=========*/
 /* ========== Page-footer=========*/
 .page-footer {
 background-color: #2e2f42;
@@ -330,7 +352,37 @@ width: 264px;
 }
 .logo-span-footer{
 
-    color: var(--color-cloud);
+color: var(--color-cloud);
+}
+.media-list {
+display: flex;
+justify-content: center;
+gap: 24px;
+}
+
+.media-list-link {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #4D5AE5;
+
+}
+.media {
+display: flex;  
+}
+.media-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-white);
+margin-bottom: 16px;
+}
+.media-list-icon {
+fill: #f4f4fd;
 }
 /* ========== /Page-footer=========*/
 
