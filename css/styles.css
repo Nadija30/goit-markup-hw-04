@@ -140,7 +140,7 @@ text-align: center;
 background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
  url("../images/hero/people_office.jpg");
 background-size: cover;
-background-color: rgba(46, 47, 66, 0.7);
+background-color: #2E2F42;
 max-width: 1440px;
 margin: 0 auto;
 }
@@ -196,6 +196,13 @@ overflow: hidden;
 .team-solutions {
     width: 264px;
     flex-basis: calc((100% - 72px) / 4);
+}
+.solutions-list-icons {
+display: block;
+padding: 24px 100px;
+border-radius: 4px;
+background-color: #F4F4FD;
+margin-bottom: 8px;
 }
 .name-decisions {
 font-weight: 500;
@@ -280,6 +287,25 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
+}
+.social-list {
+display: flex;
+justify-content: center;
+gap: 24px;
+}
+.social-list-link {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #4D5AE5;
+
+}
+.social-list-icon {
+fill: #f4f4fd;
 }
 /* ========== /Our-team =========*/
 
