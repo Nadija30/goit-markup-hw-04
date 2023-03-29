@@ -308,7 +308,10 @@ width: 40px;
 height: 40px;
 border-radius: 50%;
 background-color: #4D5AE5;
-
+}
+.social-list-link:hover, 
+.social-list-link:focus {
+background-color: #404BBF;
 }
 .social-list-icon {
 fill: #f4f4fd;
@@ -393,7 +396,7 @@ flex-direction: column;
 .media-list {
 display: flex;
 justify-content: center;
-gap: 24px;
+gap: 16px;
 }
 
 .media-list-link {
